@@ -1,0 +1,52 @@
+body{
+  text-align:center;
+  font-family:verdana;
+  background-image: url(imagens/logo1.jpg);
+  background-size: cover;
+  color: black;
+  }
+
+  h1 {
+   font-size: 60px;
+   padding-top: 80px;
+   text-shadow: 2px 2px 2px gray ;
+  }
+  p {
+   font-size: 20px;
+   padding-bottom: 15px;
+  }
+
+  h3 {
+  	padding-top:25px;
+  }
+
+  .botao {
+  	text-decoration: none;
+  	background-color: rgb(204,0,0);
+  	color: white;
+  	font-size: 15px;
+  	padding: 10px 15px 10px 15px;
+  	background-color: rgba(207,0,0,0.7);
+  	border-radius:4px;
+  }
+
+  .botao:hover {
+  	background-color: rgba(204,0,0,6);
+  }
+
+  .lista {
+  	list-style: none;
+  	padding-left:0;
+  	margin-top: 80px;
+  }
+  .lista li {
+  	display:inline;
+  }
+.lista a {
+	color: darkblue;
+	font-size: 25px;
+	text-decoration:none;
+	padding: 2px 3px 2px 3px;
+	background-color: lightblue;
+	border-radius:3px;
+}
